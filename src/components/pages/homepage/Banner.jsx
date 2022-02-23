@@ -1,13 +1,13 @@
 import { Box, Grid, Typography,Button, Paper } from '@material-ui/core';
 import React from 'react';
-import banner from '../../../../asset/image/banner.png';
+import banner from '../../../asset/image/banner.png';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-import CarSelect from '../carSelect/CarSelect';
+import CarSelect from './CarSelect';
 
 const Banner = () => {
     return (
         <Box style={{background: `url(${banner})`, width: '100%', height: '488px', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-            <Grid container >
+            <Grid container style={{height: '100%'}}>
                 <Grid item style={{width: '753.5px'}}>
                     <Typography  style={{color:'white', margin:'132px 83.5px 0px 100px', fontWeight: '700', lineHeight: '74px', fontSize: '57px', width: '570px'}}>
                     On-demand <br /> car rental service
@@ -16,7 +16,7 @@ const Banner = () => {
                         Load more<ArrowDownwardIcon fontSize='small'/>
                     </Button>
                 </Grid>
-                <Grid item style={{width: 'calc(100% - 753.5px)'}}>
+                <Grid item style={{width: 'calc(100% - 753.5px)', position:'relative'}}>
                     <CarSelect/>
                 </Grid>
             </Grid>

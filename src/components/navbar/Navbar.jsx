@@ -8,7 +8,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Box, Grid, ImageList } from "@material-ui/core";
 import { Container } from "@material-ui/core";
-import logo from "../../asset/image/jatri-logo.png";
+import brandLogo from "../../asset/image/brand-logo.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,7 +48,7 @@ const Navbar = () => {
       <AppBar position="static" color="transparent" style={{boxShadow:'none'}}>
         <Grid container justifyContent="space-between" alignItems="center" style={{paddingLeft: "100px", paddingRight: "100px"}}>
     <Grid item>
-            <img src={logo} alt="logo of jatri" className={classes.logo} />
+            <img src={brandLogo} alt="logo of jatri" className={classes.logo} />
           </Grid>
           <Grid item>
             <Button color="inherit" className={classes.button}>
@@ -63,7 +63,7 @@ const Navbar = () => {
             <Button color="inherit" className={classes.button}>
               Drive with jatri
             </Button>
-            <Button style={{backgroundColor:'#F04935', borderRadius: '1000px', color: 'white', padding: '13px 24px', marginLeft: '60px'}}>
+            <Button style={{backgroundColor:'#F04935', borderRadius: '1000px', color: 'white', padding: '13px 24px', marginLeft: '60px',  textTransform: 'none'}}>
               Log in
             </Button>
           </Grid>
