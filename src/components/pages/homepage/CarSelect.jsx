@@ -17,7 +17,8 @@ const CarSelect = () => {
           position: "absolute",
           top:'60px',
           left: '0px',
-          right: '0'
+          right: '0',
+          borderRadius: '10px'
         }}
       >
         <p>Which car do you need?</p>
