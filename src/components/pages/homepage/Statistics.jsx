@@ -6,7 +6,7 @@ const Statistics = () => {
         <>
             <Box marginTop='100px' padding='0px 100px' >
                 <Grid container justifyContent='space-between'  style={{padding: '50px 87px', backgroundColor: '#F4F4F4', borderRadius: '16px', gap: '120px'}}>
-                    <Grid item style={{width: '176px'}}>
+                    <Grid item style={{width: '14%'}}>
                         <Typography style={{ fontSize:'64px', fontWeight: '700' }}>
                         5K+
                         </Typography>
@@ -14,7 +14,7 @@ const Statistics = () => {
                         Nationwide partners
                         </Typography>
                     </Grid>
-                    <Grid item style={{width: '176px'}}>
+                    <Grid item style={{width: '14%'}}>
                         <Typography style={{ fontSize:'64px', fontWeight: '700' }}>
                         30K+
                         </Typography>
@@ -22,7 +22,7 @@ const Statistics = () => {
                         Active users
                         </Typography>
                     </Grid>
-                    <Grid item style={{width: '176px'}}>
+                    <Grid item style={{width: '14%'}}>
                         <Typography style={{ fontSize:'64px', fontWeight: '700' }}>
                         10K
                         </Typography>
@@ -30,7 +30,7 @@ const Statistics = () => {
                         Completed rides
                         </Typography>
                     </Grid>
-                    <Grid item style={{width: '176px'}}>
+                    <Grid item style={{width: '14%'}}>
                         <Typography style={{ fontSize:'64px', fontWeight: '700' }}>
                         18K
                         </Typography>

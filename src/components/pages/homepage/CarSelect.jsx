@@ -7,6 +7,7 @@ import { Typography } from "@material-ui/core";
 const CarSelect = () => {
   return (
     <>
+      <Box>
       <Paper
         elevation={9}
         style={{
@@ -167,6 +168,8 @@ const CarSelect = () => {
 
         <Button  style={{backgroundColor:'#F04935', borderRadius: '1000px', color: 'white', padding: '13px 135px', margin: '0 auto', marginTop: '20px', textTransform: 'none', fontSize: '14px'}}>Request trip</Button>
       </Paper>
+      </Box>
+      
     </>
   );
 };

@@ -19,14 +19,14 @@ const WhyJatri = () => {
                                 </Typography>
                             </Grid>
 
-                            <Grid item>
-                                <Typography style={{ fontSize:'36px', fontWeight:'500',width: '438px', marginLeft: '60px'}}>
+                            <Grid item style={{width: '48%'}}>
+                                <Typography style={{ fontSize:'36px', fontWeight:'500', marginLeft: '60px'}}>
                                 Easy and simple
                                 </Typography>
                             </Grid>
                             
-                            <Grid item>
-                                <Typography style={{ fontSize:'16px', fontWeight: '400', width: '465px', marginLeft: '219px'}}>
+                            <Grid item style={{width: '46%'}}>
+                                <Typography style={{ fontSize:'16px', fontWeight: '400', marginLeft: '219px'}}>
                                 Our services are designed to provide you a seamless rental booking experience.
                                 </Typography>
                             </Grid>
@@ -43,14 +43,14 @@ const WhyJatri = () => {
                                 </Typography>
                             </Grid>
 
-                            <Grid item>
-                                <Typography style={{ fontSize:'36px',fontWeight:'500', width: '438px', marginLeft: '60px'}}>
+                            <Grid item style={{width: '48%'}}>
+                                <Typography style={{ fontSize:'36px',fontWeight:'500',  marginLeft: '60px'}}>
                                 All of your needs covered
                                 </Typography>
                             </Grid>
                             
-                            <Grid item>
-                                <Typography style={{ fontSize:'16px', fontWeight: '400', width: '465px', marginLeft: '219px'}}>
+                            <Grid item style={{width: '46%'}}>
+                                <Typography style={{ fontSize:'16px', fontWeight: '400', marginLeft: '219px'}}>
                                 Travelling solo or with your extended family? We have multiple vehicle types to suit your needs!
                                 </Typography>
                             </Grid>
@@ -67,14 +67,14 @@ const WhyJatri = () => {
                                 </Typography>
                             </Grid>
 
-                            <Grid item>
-                                <Typography style={{ fontSize:'36px',fontWeight:'500', width: '438px', marginLeft: '60px'}}>
+                            <Grid item style={{width: '48%'}}>
+                                <Typography style={{ fontSize:'36px',fontWeight:'500',  marginLeft: '60px'}}>
                                 Pocket-friendly prices
                                 </Typography>
                             </Grid>
                             
-                            <Grid item>
-                                <Typography style={{ fontSize:'16px', fontWeight: '400', width: '465px', marginLeft: '219px'}}>
+                            <Grid item style={{width: '46%'}}>
+                                <Typography style={{ fontSize:'16px', fontWeight: '400', marginLeft: '219px'}}>
                                 Enjoy  multiple bids from rental owners all over the city, in just a few minutes!
                                 </Typography>
                             </Grid>
